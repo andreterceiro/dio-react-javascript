@@ -40,7 +40,23 @@ function test4() {
     );
 }
 
+function test5() {
+    values = [1, 2, 3];
+    console.log(
+        values.some((item) => {
+            return item > 1;
+        })
+    );
+        
+    console.log(
+        values.every((item) => {
+            return item > 1;
+        })
+    );
+}
+
 // test1();
 // test2();
 // test3();
-test4();
+// test4();
+test5();
