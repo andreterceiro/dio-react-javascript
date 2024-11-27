@@ -32,3 +32,13 @@ console.log(doubles);
 # console.table()
 
 You can use `console.table()` to print an array of objects in a table format.
+
+
+# filter
+
+Example:
+
+```
+values = [1,2,3,4];
+console.log(values.filter((value) => value > 2));
+```
