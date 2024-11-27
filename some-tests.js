@@ -13,7 +13,7 @@ function test1() {
 }
 
 function test2() {
-    values = [1, 2, 3];
+    let values = [1, 2, 3];
 
     values.forEach(value => {
         console.log(value);
@@ -30,6 +30,17 @@ function test3() {
     console.table(values.filter((value) => value > 2));
 }
 
+function test4() {
+    let values = [1, 2, 3];
+
+    console.log(
+        values.reduce((accumulator, item) => {
+            return accumulator + item;
+        }, 10)
+    );
+}
+
 // test1();
 // test2();
-test3();
+// test3();
+test4();
