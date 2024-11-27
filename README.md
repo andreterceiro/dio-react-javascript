@@ -42,3 +42,9 @@ Example:
 values = [1,2,3,4];
 console.table(values.filter((value) => value > 2));
 ```
+
+
+# find
+
+The way to use is similar as ".filter()". But "find()" **only returns the first value that matches the condition**.
+
