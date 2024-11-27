@@ -52,3 +52,18 @@ The way to use is similar as ".filter()". But "find()" **only returns the first 
 # findIndex
 
 Similar to find(), but returns only the index related to the match.
+
+
+# reduce
+
+See the example. Strange Syntax, but ok, it prints 16. The initial value of the accumulator is 10.
+
+```
+let values = [1, 2, 3];
+
+console.log(
+    values.reduce((accumulator, item) => {
+        return accumulator + item;
+    }, 10)
+);
+```    
