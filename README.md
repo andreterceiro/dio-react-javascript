@@ -66,4 +66,24 @@ console.log(
         return accumulator + item;
     }, 10)
 );
-```    
+```
+
+# some() and every()
+
+**some()** is like using an "**or**" opperator in all of the items and every () is like using an "**and**" operator in all of the items.
+
+```
+values = [1, 2, 3];
+console.log(
+    values.some((item) => {
+        return item > 1;
+    })
+);
+    
+console.log(
+    values.every((item) => {
+        return item > 1;
+    })
+);
+```
+
