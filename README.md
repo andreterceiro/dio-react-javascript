@@ -28,3 +28,7 @@ doubles = values.map((value) => {
 console.log(doubles);
 ```
 
+
+# console.table()
+
+You can use `console.table()` to print an array of objects in a table format.
