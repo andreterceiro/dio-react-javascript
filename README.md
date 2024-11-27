@@ -48,3 +48,7 @@ console.table(values.filter((value) => value > 2));
 
 The way to use is similar as ".filter()". But "find()" **only returns the first value that matches the condition**.
 
+
+# findIndex
+
+Similar to find(), but returns only the index related to the match.
