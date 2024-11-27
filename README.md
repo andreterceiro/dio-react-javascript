@@ -40,5 +40,5 @@ Example:
 
 ```
 values = [1,2,3,4];
-console.log(values.filter((value) => value > 2));
+console.table(values.filter((value) => value > 2));
 ```
